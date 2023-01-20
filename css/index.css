@@ -20,12 +20,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   background-image: url(/picture/155015-minimalizm-voda-oblako-prut-derevo-3840x2160.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-clip: border-box;
+}
+
+.login_container {
+  width: 500px;
+  height: 500px;
+  background-color: #f3f3f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 25px;
 }
 
 #login_username h1 {
@@ -41,8 +51,9 @@ body {
   outline: none;
   border-radius: 7px;
   height: 47px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: #868686;
+  width: 358px;
 }
 
 #login_username button {
@@ -52,6 +63,7 @@ body {
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 10px;
+  width: 358px;
 }
 
 #login_username button a {
@@ -86,6 +98,7 @@ body {
     height: 35px;
     width: 90%;
     border-radius: 7px;
+    background-color: #f5f5f5;
   }
   #login_username button {
     width: 90%;
@@ -94,5 +107,8 @@ body {
   #login_username button:hover {
     background-color: #00a3ff;
     border: 2px solid #00a3ff;
+  }
+  .login_container {
+    background-color: rgba(95, 158, 160, 0);
   }
 } /* login rsponsive */
